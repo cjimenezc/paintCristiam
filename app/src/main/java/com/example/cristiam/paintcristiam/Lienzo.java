@@ -16,15 +16,13 @@ import android.view.View;
  */
 public class Lienzo extends View {
 
-    //Path que utilizaré para ir pintando las lineas
-    private Path drawPath;
+
+    private Path drawPath;//Path que utilizaré para ir pintando las lineas
     //Paint de dibujar y Paint de Canvas
     private static Paint drawPaint;
     private Paint canvasPaint;
-    //Color Inicial
-    private static int paintColor = 0xFFFF0000;
-    //canvas
-    private Canvas drawCanvas;
+    private static int paintColor = 0xFFFF0000;//Color Inicial
+    private Canvas drawCanvas;//canvas
     //canvas para guardar
     private Bitmap canvasBitmap;
 
